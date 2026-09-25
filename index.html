@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>〇〇仏壇店｜〇〇市の仏壇・仏具の販売と修繕</title>
+<meta name="description" content="〇〇市の〇〇仏壇店は創業五十余年。金仏壇・唐木仏壇・モダン仏壇の販売、お位牌・仏具、職人による仏壇の修繕（お洗濯）まで、まごころ込めてお手伝いします。">
+<script>document.documentElement.classList.add("js");</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-home">
+<div class="page-fade" aria-hidden="true"></div>
+
+<!-- ロゴマーク（蓮）：各所で <use> して使い回す -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="lotus" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><path d="M24 8c-5 6-5 18 0 26 5-8 5-20 0-26z"/><path d="M24 34c-3-9-9-15-15-16 0 8 6 15 15 16z"/><path d="M24 34c3-9 9-15 15-16 0 8-6 15-15 16z"/><path d="M24 34C18 30 10 29 4 31c5 4 13 5 20 3z"/><path d="M24 34c6-4 14-5 20-3-5 4-13 5-20 3z"/><path d="M12 40h24"/></g></symbol>
+  <symbol id="i-tel" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M3 5.5h18v13H3zM3 6l9 7 9-7"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M5 15l7-7 7 7"/></symbol>
+</svg>
+
+<!-- ========== 共通ヘッダー ここから ========== -->
+<header class="header">
+  <a class="header__logo" href="index.html">
+    <svg class="logo-mark" aria-hidden="true"><use href="#lotus"/></svg>
+    <span class="logo-name">〇〇仏壇店</span>
+  </a>
+  <nav class="header__nav" aria-label="グローバルナビゲーション">
+    <ul>
+      <li><a class="is-current" href="index.html" aria-current="page">トップページ</a></li>
+      <li><a href="about/index.html">当店について</a></li>
+      <li><a href="products/index.html">仏壇・仏具のご案内</a></li>
+      <li><a href="repair/index.html">仏壇の修繕</a></li>
+      <li><a href="shop/index.html">店舗案内</a></li>
+      <li><a href="contact/index.html">ご相談・お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <a class="header__tel" href="tel:0000000000"><small>お電話でのご相談</small>TEL.000-000-0000</a>
+</header>
+
+<button class="menu-btn" type="button" aria-label="メニューを開く" aria-controls="gmenu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav class="gmenu" id="gmenu" aria-label="メニュー">
+  <div class="gmenu__inner">
+    <ul class="gmenu__list">
+      <li><a class="is-current" href="index.html" aria-current="page">トップページ</a></li>
+      <li><a href="about/index.html">当店について</a></li>
+      <li><a href="products/index.html">仏壇・仏具のご案内</a></li>
+      <li><a href="repair/index.html">仏壇の修繕</a></li>
+      <li><a href="shop/index.html">店舗案内</a></li>
+      <li><a href="contact/index.html">ご相談・お問い合わせ</a></li>
+    </ul>
+    <div class="gmenu__info">
+      〇〇仏壇店<br>
+      〒000-0000 〇〇県〇〇市〇〇町1丁目2-3<br>
+      <a class="tel" href="tel:0000000000">TEL.000-000-0000</a>
+      営業時間 9:00〜18:00（水曜定休）
+    </div>
+  </div>
+</nav>
+<!-- ========== 共通ヘッダー ここまで ========== -->
+
+<!-- ========== メインビジュアル ========== -->
+<div class="mv" id="top">
+  <div class="mv__slides" aria-hidden="true">
+    <div class="mv__slide"><img src="assets/img/hero-01.jpg" alt=""></div>
+    <div class="mv__slide"><img src="assets/img/hero-02.jpg" alt=""></div>
+    <div class="mv__slide"><img src="assets/img/hero-03.jpg" alt=""></div>
+  </div>
+
+  <div class="mv__side">
+    <h1 class="mv__logo">
+      <svg class="logo-mark" aria-hidden="true"><use href="#lotus"/></svg>
+      <span class="logo-name">〇〇仏壇店<small>創業 昭和四十二年</small></span>
+    </h1>
+    <p class="mv__side-text">〇〇宗 〇〇別院 指定店<br>〇〇県仏壇仏具組合 加盟店</p>
+  </div>
+
+  <p class="mv__catch">
+    <span class="mv__catch-line"><span>祈りの場を、</span></span>
+    <span class="mv__catch-line"><span>まごころ込めて</span></span>
+    <span class="mv__catch-line"><span>ととのえる。</span></span>
+  </p>
+
+  <div class="mv__right">
+    <a class="mv__right-link" href="contact/index.html"><svg aria-hidden="true"><use href="#i-mail"/></svg>ご相談・お問い合わせ</a>
+  </div>
+  <div class="mv__bar" aria-hidden="true"><span></span><span></span><span></span></div>
+  <p class="mv__scroll" aria-hidden="true">SCROLL</p>
+</div>
+
+<main>
+
+  <!-- ========== ごあいさつ ========== -->
+  <section class="section intro">
+    <div class="wave-deco" aria-hidden="true"></div>
+    <div class="wrapper">
+      <div class="intro__inner">
+        <h2 class="sec-title fade-up">仏壇・仏具の<br>ご購入、修繕は<br>〇〇仏壇店へ。</h2>
+        <div class="v-text fade-up delay-1">
+          <p class="em">お仏壇は、<br>家族の心のよりどころ。</p>
+          <p>〇〇仏壇店は、〇〇市で五十余年、<br>仏壇・仏具の販売と修繕を続けてまいりました。</p>
+          <p>伝統的な金仏壇・唐木仏壇から、<br>現代の住まいになじむモダン仏壇まで。<br>ご家族の想いとお部屋に合わせて、<br>一緒にお選びいたします。</p>
+          <p>はじめての方も、どうぞ気軽にお立ち寄りください。</p>
+        </div>
+        <a class="circle-link fade-up delay-2" href="about/index.html">当店について<span class="circle-link__arrow" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 仏壇・仏具のご案内 ========== -->
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="sec-title sec-title--center fade-up">仏壇・仏具の<br>ご案内</h2>
+      <div class="cards">
+        <a class="card fade-up" href="products/index.html#kin">
+          <img src="assets/img/prod-kin.jpg" alt="金箔と漆で仕上げられた荘厳な金仏壇" loading="lazy">
+          <h3 class="card__title">金仏壇</h3>
+          <p class="card__text">漆塗りと金箔で荘厳に仕上げた、<br>浄土真宗のご家庭に多い伝統のお仏壇。</p>
+        </a>
+        <a class="card fade-up delay-1" href="products/index.html#karaki">
+          <img src="assets/img/prod-karaki.jpg" alt="木目の美しい唐木仏壇" loading="lazy">
+          <h3 class="card__title">唐木仏壇</h3>
+          <p class="card__text">黒檀・紫檀など銘木の木目を生かした、<br>落ち着きのある宗派を問わないお仏壇。</p>
+        </a>
+        <a class="card fade-up" href="products/index.html#modern">
+          <img src="assets/img/prod-modern.jpg" alt="リビングになじむ家具調のモダン仏壇" loading="lazy">
+          <h3 class="card__title">モダン仏壇<small>家具調仏壇</small></h3>
+          <p class="card__text">洋間やマンションにもなじむ、<br>コンパクトで上質なお仏壇。</p>
+        </a>
+        <a class="card fade-up delay-1" href="products/index.html#butsugu">
+          <img src="assets/img/prod-butsugu.jpg" alt="念珠を手にして合掌する様子" loading="lazy">
+          <h3 class="card__title">お位牌・念珠<small>お線香・仏具</small></h3>
+          <p class="card__text">お位牌の文字彫りから、日々のお線香・<br>ろうそくまで取り揃えております。</p>
+        </a>
+      </div>
+      <div class="more-link fade-up">
+        <a class="circle-link" href="products/index.html">取扱商品の一覧へ<span class="circle-link__arrow" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 仏壇の修繕 ========== -->
+  <section class="section">
+    <div class="wave-deco" aria-hidden="true" style="right:-40px;top:120px"></div>
+    <div class="wrapper">
+      <h2 class="sec-title sec-title--center fade-up">仏壇の<br>修繕</h2>
+      <p class="repair__lead fade-up">伝統の技を受け継ぐ職人が、<br class="sp-only">大切なお仏壇をよみがえらせます。</p>
+      <ul class="troubles">
+        <li class="trouble fade-up">金箔の<br>くすみ</li>
+        <li class="trouble fade-up delay-1">漆の<br>はがれ</li>
+        <li class="trouble fade-up delay-2">金具の<br>破損</li>
+        <li class="trouble fade-up delay-3">扉の<br>がたつき</li>
+      </ul>
+      <div class="repair__body">
+        <div class="v-text fade-up">
+          <p>一部の修理から、<br>すべてを分解して塗り直す<br>「お洗濯（全体修復）」まで。</p>
+          <p>状態とご予算をうかがい、<br>無理のない方法をご提案します。</p>
+          <p>お見積りは無料です。</p>
+        </div>
+        <img class="repair__img fade-up delay-1" src="assets/img/repair.jpg" alt="金箔の装飾を修復する職人" loading="lazy">
+      </div>
+      <div class="more-link fade-up">
+        <a class="circle-link" href="repair/index.html">修繕の詳細はこちら<span class="circle-link__arrow" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 店舗案内 ========== -->
+  <section class="section">
+    <div class="wrapper">
+      <h2 class="sec-title sec-title--center fade-up">店舗<br>案内</h2>
+      <div class="shop__inner">
+        <img class="shop__side-img fade-up" src="assets/img/shop.jpg" alt="〇〇仏壇店の店構え" loading="lazy">
+        <div class="shop__main">
+          <div class="v-text fade-up delay-1">
+            <p>〇〇町の本店では、<br>五十本以上のお仏壇を展示しております。</p>
+            <p>実際に扉を開け、木の香りや<br>手ざわりを確かめてお選びください。</p>
+            <p>お茶を飲みながらのご相談も歓迎です。</p>
+          </div>
+          <div class="info-box fade-up delay-2">
+            <h3 class="info-box__title">店舗所在地</h3>
+            <dl>
+              <dt>店名</dt><dd>株式会社 〇〇仏壇店</dd>
+              <dt>住所</dt><dd>〒000-0000<br>〇〇県〇〇市〇〇町1丁目2-3</dd>
+              <dt>電話</dt><dd><a class="big-tel" href="tel:0000000000">000-000-0000</a></dd>
+              <dt>営業時間</dt><dd>9:00〜18:00（水曜定休）</dd>
+              <dt>駐車場</dt><dd>店舗前に5台</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="more-link fade-up">
+        <a class="circle-link" href="shop/index.html">詳しい情報はこちら<span class="circle-link__arrow" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========== お問い合わせ帯（共通） ========== -->
+<section class="contact-band" aria-labelledby="contact-band-title">
+  <div class="wrapper">
+    <h2 class="sec-title sec-title--center fade-up" id="contact-band-title">ご相談<br>お問い合わせ</h2>
+    <p class="contact-band__lead fade-up">お仏壇のご購入・お引越し・修繕・ご供養のことなど、<br class="pc-only">どんな小さなことでもお気軽にご相談ください。</p>
+    <div class="contact-box fade-up">
+      <div>
+        <p class="contact-box__label">お電話でのご相談</p>
+        <a class="contact-box__tel" href="tel:0000000000"><svg aria-hidden="true"><use href="#i-tel"/></svg>000-000-0000</a>
+        <p class="contact-box__note">営業時間 9:00〜18:00（水曜定休）</p>
+      </div>
+      <a class="contact-box__mail" href="contact/index.html">
+        <span class="contact-box__label">24時間受付</span>
+        <span><svg aria-hidden="true"><use href="#i-mail"/></svg>メールフォーム</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 共通フッター ========== -->
+<footer class="footer">
+  <div class="wrapper">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <p class="logo-name">〇〇仏壇店<small>創業 昭和四十二年</small></p>
+        <address class="footer__address">
+          <strong>株式会社 〇〇仏壇店</strong>
+          〒000-0000<br>
+          〇〇県〇〇市〇〇町1丁目2-3<br>
+          TEL.000-000-0000<br>
+          営業時間 9:00〜18:00（水曜定休）<br>
+          駐車場 5台完備
+        </address>
+      </div>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <ul>
+      <li><a href="index.html">トップページ</a></li>
+      <li><a href="about/index.html">当店について</a></li>
+      <li><a href="products/index.html">仏壇・仏具のご案内</a></li>
+      <li><a href="repair/index.html">仏壇の修繕</a></li>
+      <li><a href="shop/index.html">店舗案内</a></li>
+      <li><a href="contact/index.html">ご相談・お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer__copy"><small>&copy; 〇〇仏壇店 All Rights Reserved.</small></p>
+  </div>
+</footer>
+
+<a class="to-top" href="#top" aria-label="ページの先頭へ"><svg aria-hidden="true"><use href="#i-up"/></svg></a>
+
+<div class="sp-cta">
+  <a href="tel:0000000000">電話で相談</a>
+  <a href="contact/index.html">メールで相談</a>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
