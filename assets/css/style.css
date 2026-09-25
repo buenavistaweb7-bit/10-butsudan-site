@@ -670,3 +670,7 @@ html:not(.js) .page-fade { display: none; }
 .signature { text-align: right; margin-top: 2em; }
 .lead strong { font-weight: 600; color: var(--ink); }
 .nowrap { white-space: nowrap; }
+
+/* 店主ごあいさつ（トップ） */
+.owner__link { margin-top: 36px; }
+.owner .media__img img { object-position: 40% 30%; }
