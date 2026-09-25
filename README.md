@@ -3,6 +3,9 @@
 〇〇県〇〇市の仏壇店（仮）のホームページ。
 参考サイト（木原仏壇店 https://kihara-butudan.com/ ）の構成と雰囲気に寄せて作成した、複数ページの静的サイト。
 
+**公開URL（GitHub Pages）**：https://buenavistaweb7-bit.github.io/10-butsudan-site/
+main ブランチに push すると、1〜2分で自動的に反映される。
+
 ## ページ構成
 
 | ページ | ファイル |
